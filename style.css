@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+}
+#showcase{ 
+    background-image: url('images/pexels-rachel-claire-4577740.jpg');
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+}
+
+
+
+#showcase h1{
+    font-size: 50px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+#showcase p{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+#showcase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: #926239;
+    border: #926239 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: rgb(237, 237, 19);
+}
+
+#showcase .button:hover{
+    background: #926239;
+    color: #fff;
+}
+
+span{
+    font-family: "Comforter", cursive;
+    font-weight: 400;
+    color: rgb(237, 237, 19);
+}
+
+ul{
+    text-align: center;
+}
+
+.prices{
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+#about {
+    padding: 50px 0;
+    background: #f5f5f7;
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  .about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #about h2 {
+    font-size: 3rem;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  #about .small {
+    font-size: 2rem;
+    color: #666;
+    font-weight: 600;
+  }
+  
+  .about-img {
+    flex: 1 1 400px;
+    padding: 30px;
+    transform: translateX(150%);
+    animation: about-img-animation 1s ease-in-out forwards;
+  } 
+  
+  @keyframes about-img-animation {
+    100% {
+      transform: translate(0);
+    }
+  }
+  
+  .about-text {
+    flex: 1 1 400px;
+    padding: 30px;
+    margin: auto;
+    transform: translate(-150%);
+    animation: about-text-animation 1s ease-in-out forwards;
+  }
+  
+  @keyframes about-text-animation {
+    100% {
+      transform: translate(0);
+    }
+  }
+  
+  .about-img img {
+    display: block;
+    height: 400px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: right;
+  }
+  
+#contact{
+    background-image: url(images/pexels-gonzalo-acuña-12664780.jpg);
+    width: 100%;
+}
+
+#contact p{
+    color: #fff;
+}
+
+#contact h2{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#contact label{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+  .footer{
+    width: 100%;
+    padding-top: 3rem;
+    background-color: #7b7a7a;
+    margin: 0%;
+  }
+
+  footer li{
+    list-style: none;
+    font-size: 1rem;
+  }
+
+  #socials{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
